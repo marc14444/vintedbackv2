@@ -6,7 +6,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 import adminRouter from "./routes/admin.js";
 import userRouter from "./routes/users.js";
 import articleRouter from "./routes/articles.js"
-import {connectDb} from "./baseDEdonnees/db.js";
+import {connectDb }from "./baseDEdonnees/db.js";
 import cors from "cors";
 import bodyParser from "body-parser";
 
